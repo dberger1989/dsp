@@ -37,7 +37,7 @@ import sklearn
 
 Did you install Python 2 or 3? Why? How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+I installed python 2. It seemed more pupular, and was the default and banner offering on the anaconda website. 
 
 ---
 
