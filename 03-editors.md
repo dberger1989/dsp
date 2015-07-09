@@ -29,7 +29,7 @@ Both Emacs and vim have built-in interactive tutorials that you can try.
 
 ---
 
-What terminal editor will you use? How did you make your decision?
+I am going to use Emacs. I read that with the "Evil" plugin, it can do the same things as Vim, and retains the benefits of Emacs. I don't know anything about either of these other than what I read on stackoverflow and reddit. It sounds like a tossup for someone as uninitiated as I am. 
 
 REPLACE THIS TEXT WITH YOUR RESPONSE
 
