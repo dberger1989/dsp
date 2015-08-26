@@ -28,10 +28,11 @@ If you intend to use a graphical editor that doesn't run in a terminal, nano mig
 Both Emacs and vim have built-in interactive tutorials that you can try.
 
 ---
+What terminal editor will you use? How did you make your decision?
 
-I am going to use Emacs. I read that with the "Evil" plugin, it can do the same things as Vim, and retains the benefits of Emacs. I don't know anything about either of these other than what I read on stackoverflow and reddit. It sounds like a tossup for someone as uninitiated as I am. 
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+I am going wih Vim. I have a close friend who uses Vim, so i felt comfortable asking him for some help. Also, it seemed just as popular as emacs. 
+
 
 ---
 
@@ -61,6 +62,10 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+I ended up going with macvim. I figured the more practice i get in vim, the better. Some interesting features include the array of commands you can use, like advanced methods of search and replace. Vim also allows me to not take my hands off the keyboard. This is challenging, but having macvim there to help me along the way helps. The keyboard shortcuts I have found to be useful so far are:
+      [n]G which goes to n line
+      c$ which deletes a line and inserts in its place
+      ci  which deletes the contents of a series of quotes (can also be used with brackets and parenthese)
+I customize my editor by inserting lines of code into the .vimrc file in my come directory. So far I have customized the color scheme, which was pretty exciting, and also configured the editor to recognize python file types and adapt the font coloring and indentations accordingly. 
 
 ---
