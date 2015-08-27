@@ -10,7 +10,7 @@ these in a couple of hours.
 
 ---
 
-Make a cheat sheet for yourself: a list of commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
+Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
 Cheat Sheet:
 
@@ -60,9 +60,6 @@ grep -r ‘word' filename will search recursively, which is to say for all files
 
 ---
 
-
----
-
 What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations of those flags are meaningful?
 
 ls lists the contents of the working directory. 
@@ -78,6 +75,6 @@ ls -lh adding the h will make the size more readable by listing it in b, kb, etc
 
 What does `xargs` do? Give an example of how to use it.
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
-
+xargs allows you to pass elements or chunks of a list through commands, rather than passing the entire thing. This is good for when lists are too long. 
 ---
+

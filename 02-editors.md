@@ -30,7 +30,6 @@ Both Emacs and vim have built-in interactive tutorials that you can try.
 ---
 What terminal editor will you use? How did you make your decision?
 
-
 I am going wih Vim. I have a close friend who uses Vim, so i felt comfortable asking him for some help. Also, it seemed just as popular as emacs. 
 
 
@@ -67,5 +66,3 @@ I ended up going with macvim. I figured the more practice i get in vim, the bett
       c$ which deletes a line and inserts in its place
       ci  which deletes the contents of a series of quotes (can also be used with brackets and parenthese)
 I customize my editor by inserting lines of code into the .vimrc file in my come directory. So far I have customized the color scheme, which was pretty exciting, and also configured the editor to recognize python file types and adapt the font coloring and indentations accordingly. 
-
----
