@@ -31,8 +31,6 @@ mkdir creates a new directory in the working directory.
 
 touch creates a new file inside the working directory.
 
-working with files
-
 cp if we do cp frida.txt lincoln.txt, we are copying the contents of frida into lincoln. Or, if we do cp cleopatra.txt historical/, it 
 will copy cleopatra.txt into the historical/ directory. 
 	cp * satire/ will copy all files, since * is a wildcard, into 			satire/
