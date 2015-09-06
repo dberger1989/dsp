@@ -1,3 +1,8 @@
+You have two options to complete parts 1-3 (Install, Editors, Command Line).  
+
+Option 1:  _Beginner:_ Edit markdown files directly on GitHub.  (Follow the instructions below).  
+Option 2:  _Intermediate:_ Edit files using GitHub pull/pull.  Follow "Set Up Repo on GitHub" [Step 4: Set up repo ](/04_set_up_repo.md)
+
 # Set up your repository on GitHub
 
 
@@ -24,7 +29,7 @@ This makes a personal copy of the repository that you can edit. Your forked copi
 This repository is `thisismetis/dsp`. Your forked copy will be `your_github_user_name/dsp`.
 
 
-## Step 4: Edit your fork
+## Step 4: Edit your fork  
 
 There are files in your forked repository that you need to edit to add your work.
 
@@ -46,15 +51,13 @@ What is your favorite [emoji](http://www.emoji-cheat-sheet.com/)?
 
 :hear_no_evil:
 
+
+
 ---
 
 
 ### Deepen your knowledge
 
-The process above is designed to be accessible to anyone regardless of background. There is much more to learn about `git` and GitHub.
+The process above is designed to be accessible to anyone regardless of background. There is much more to learn about `git` and GitHub.  
 
-To get a complete understanding of `git`, you should read [Pro Git](http://git-scm.com/book/en/v2). It's available free online or as a printed book.
-
-[<img src="img/pro_git.png" title="Pro Git" width="250" />](http://git-scm.com/book/en/v2)
-
-It isn't required, but you can also submit work to your forked repository by `clone`ing your fork, editing files on your machine, `add`ing them to the staging area, `commit`ting them, and `push`ing your changes back up to GitHub.
+More advanced instructions are available at [Step 4: Set up repo ](/04_set_up_repo.md)
