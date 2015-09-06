@@ -105,7 +105,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> 937 days, 0:00:00
 
 b.  
 ```
@@ -113,7 +113,7 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> 513 days, 0:00:00
 
 c.  
 ```
@@ -121,7 +121,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  
+>> 7850 days, 0:00:00  
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
