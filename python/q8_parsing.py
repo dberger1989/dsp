@@ -6,12 +6,34 @@
 
 
 import csv
+data = 'football.csv'
 
-  def read_data(data):
-   # COMPLETE THIS FUNCTION
+def read_data(data):
+    fin = open(data, 'rb')
+    redata = csv.reader(fin)
+    return redata
 
-  def get_min_score_difference(self, parsed_data):
-    # COMPLETE THIS FUNCTION
+def get_min_score_difference(parsed_data):
+    next(parsed_data)
+    for item in parsed_data:
+        gdiff = int(item[5]) - int(item[6])
+        goal_differentials[item[0]] = (abs(gdiff))
+    return min(goal_differentials.values())
 
-  def get_team(self, index_value, parsed_data):
-    # COMPLETE THIS FUNCTION
+def get_team(index_value, parsed_data):
+    for item in goal_differentials.keys():
+        if goal_differentials[item] == index_value:
+            print item 
+
+
+goal_differentials = {}
+
+read_data(data)
+
+parsed_data =  read_data(data)
+
+get_min_score_difference(parsed_data)
+
+get_team(1, goal_differentials)
+
+
