@@ -24,7 +24,23 @@ for item in degsp:
 countdict = {x:deglist.count(x)  for x in deglist}
 print countdict
 
-#part 1 question q:
+#part 1 q2
+#To determine how many types of titles there are:
+import csv
+fpath = '/Users/David/Desktop/faculty.csv'
+
+fin = open(fpath, 'rb')
+dfile = csv.DictReader(fin)
+
+newlist = [item for item in dfile]
+titlist = []
+for item in newlist[1:]:
+    titlist.append(item[' title'])
+
+dictlist = {item: titlist.count(item) for item in titlist}
+print dictlist
+
+#part 1 question q3:
 #print emails
 import csv
 fpath = '/Users/David/Desktop/faculty.csv'
