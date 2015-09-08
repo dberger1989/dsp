@@ -23,3 +23,14 @@ for item in degsp:
 
 countdict = {x:deglist.count(x)  for x in deglist}
 print countdict
+
+#part 1 question q:
+#print emails
+import csv
+fpath = '/Users/David/Desktop/faculty.csv'
+
+fin = open(fpath, 'rb')
+dfile = csv.DictReader(fin)
+for item in dfile:
+    print item[' email']
+
