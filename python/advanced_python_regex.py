@@ -84,26 +84,3 @@ for item in domains:
 domcount = {x: domlist.count(x) for x in domlist}
 print domcount
 
-
-fin = open(fpath, 'rb')
-dfile = csv.DictReader(fin)
-
-newlist = [item for item in dfile]
-titlist = []
-for item in newlist[1:]:
-    titlist.append(item[' title'])
-
-dictlist = {item: titlist.count(item) for item in titlist}
-print dictlist
-
-#part 1 question q3:
-#print emails
-import csv
-fpath = '/Users/David/Desktop/faculty.csv'
-
-fin = open(fpath, 'rb')
-dfile = csv.DictReader(fin)
-for item in dfile:
-    print item[' email']
->>>>>>> 6bf902591e8dc8a5887bfdbc2c8dd9701701e425
-
