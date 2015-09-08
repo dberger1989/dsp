@@ -16,7 +16,9 @@ Use regular expressions to:
 
 ####Q1. Find how many different degrees there are, and their frequencies: Ex:  PhD, ScD, MD, MPH, BSEd, MS, JD, etc.
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> There were 8 types of degrees achieved by the faculty, with one member having no degree at all. The frequencies of the degrees are below.
+
+>>{'MD': 1, 'MA': 1, 'ScD': 6, 'BSEd': 1, 'PhD': 31, '0': 1, 'MPH': 2, 'MS': 2, 'JD': 1}
 
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
