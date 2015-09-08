@@ -24,6 +24,8 @@ for item in degsp:
 countdict = {x:deglist.count(x)  for x in deglist}
 print countdict
 
+###########################
+
 #part 1 q2
 #To determine how many types of titles there are:
 import csv
@@ -40,6 +42,8 @@ for item in newlist[1:]:
 dictlist = {item: titlist.count(item) for item in titlist}
 print dictlist
 
+###########################
+
 #part 1 question q3:
 #print emails
 import csv
@@ -49,6 +53,36 @@ fin = open(fpath, 'rb')
 dfile = csv.DictReader(fin)
 for item in dfile:
     print item[' email']
+    
+###########################
+
+#Part 1 Question 4
+#Prints the frequencies of the domains
+import csv
+fpath = '/Users/David/ds/metis/prework/dsp/python/faculty.csv'
+import re
+
+fin = open(fpath, 'rb')
+dfile = csv.DictReader(fin)
+
+
+emlist = []
+for item in dfile:
+    emlist.append(item[' email'])
+
+
+domains = []
+p = re.compile(r'@\S+')
+for item in emlist:
+    dm = p.findall(item)
+    domains.append(dm)
+
+domlist = []
+for item in domains:
+    domlist += item
+
+domcount = {x: domlist.count(x) for x in domlist}
+print domcount
 
 
 fin = open(fpath, 'rb')
