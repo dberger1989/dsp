@@ -82,6 +82,43 @@ for item in lid.keys():
         count += 1
         
 ############
+# Part 3 Question 8
+# Prints the first 3 entries sorted by last name. 
+
+import csv
+import re
+
+fpath = '/Users/David/ds/metis/prework/dsp/python/faculty.csv'
+
+fin = open(fpath, 'rb')
+
+dictfin = csv.DictReader(fin)
+dlist= []
+for item in dictfin:
+    dlist.append(item)
+
+for item in dlist:
+    item['name'] = tuple(item['name'].split())
+    
+p = re.compile(r'of\s\S+')
+su = []
+for item in dlist:
+    item[' title'] = p.sub('', item[' title'])
+
+lid = {}
+for item in dlist:
+    nu = {item['name']:[[item[' title'], item[' email']]]}
+    if item['name'] not in lid.keys():
+        lid[item['name']] = [item[' title'], item[' email']]
+    else:lid[item['name']].append([item[' title'], item[' email']])
+
+slid = sorted(lid, key=lambda x:x[-1])
+
+ndic = {}
+for item in slid[:3]:
+    ndic[item] = lid[item]
+    print item, ndic[item]
+
 
 
 
