@@ -32,4 +32,13 @@ for item in dlist:
 
 print lid
 
+#print first 3 entries:
+count = 0
+for item in lid.keys():
+    if count < 3:
+        print item
+        print lid[item]
+        count += 1
+
+
 ##################
