@@ -133,7 +133,14 @@ professor_dict = {('Susan', 'Ellenberg'): ['Ph.D.', 'Professor', 'sellenbe@upenn
 
 Print the first 3 key and value pairs of the dictionary:
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> ('Jonas', 'H.', 'Ellenberg')
+['Professor ', 'jellenbe@mail.med.upenn.edu']
+
+>>('Yimei', 'Li')
+['Assistant Professor ', 'liy3@email.chop.edu']
+
+>>('Hongzhe', 'Li')
+['Professor ', 'hongzhe@upenn.edu']
 
 ####Q8.  It looks like the current dictionary is sorted by first name.  Sort by last name and print the first 3 key and value pairs.  
 
