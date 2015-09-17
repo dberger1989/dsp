@@ -3,15 +3,12 @@
 >>
 ```
 live = preg[preg.outcome == 1]
-
 other = preg[preg.outcome != 1]
 firsts = live[live.birthord == 1]
 others = live[live.birthord != 1]
 firstsmean = firsts.totalwgt_lb.mean()
 othersmean = others.totalwgt_lb.mean()
-
 meandiff = firstsmean - othersmean
-
 s1 = (firsts.totalwgt_lb.var() * len(firsts))
 s2 = (others.totalwgt_lb.var() * len(others)) 
 nu= (len(firsts) + len(others))
