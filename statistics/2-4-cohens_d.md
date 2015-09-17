@@ -1,6 +1,7 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
->> '''
+>> ```
+
 live = preg[preg.outcome == 1]
 
 >>other = preg[preg.outcome != 1]
@@ -17,6 +18,6 @@ nu= (len(firsts) + len(others))
 pooled_var = (s1 + s2)/nu
 d = meandiff/ math.sqrt(pooled_var)
 print d
-'''
+```
 
 
