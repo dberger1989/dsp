@@ -25,6 +25,6 @@ thinkplot.Show(xlabel='Number children under age 18 in household',ylabel='PMF')
 actual = pmf.Mean()
 biased = biased_pmf.Mean()
 ```
-<img src = "~/Downloads/figure_1.png">
+<img src = "images/actualbiased.png">
 >>The actual pmf mean was 1.02, and the biased pmf mean was 2.40. 
 
