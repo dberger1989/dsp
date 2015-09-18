@@ -2,6 +2,7 @@
 
 >> The random numbers occured in general at uniform distribution. The pmf was very hard to read with so many numbers, but it did show some overlap. The Cdf was a better indicator, and it showed a steady slope from 0 to 1.0, indicating that there were few numbers that were repeated or in a clustered range. 
 
+>>
 ```
 import numpy as np
 import thinkstats2
@@ -21,6 +22,8 @@ cdf_thou = thinkstats2.Cdf(thousrand)
 thinkplot.Cdf(cdf_thou)
 thinkplot.Show()
 ```
-![pmf](images/4.2pmf.png)
+>>![pmf](images/4.2pmf.png)
+
+>>![cdf](images/4.2cdf.png)
 
 
