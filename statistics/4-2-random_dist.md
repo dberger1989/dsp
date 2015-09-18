@@ -21,6 +21,6 @@ cdf_thou = thinkstats2.Cdf(thousrand)
 thinkplot.Cdf(cdf_thou)
 thinkplot.Show()
 ```
-
+![pmf](images/4.2pmf.png)
 
 
